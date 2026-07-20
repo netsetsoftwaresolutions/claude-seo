@@ -10,7 +10,6 @@ output/
 Thumbs.db
 
 # IDE files
-.vscode/
 .idea/
 *.sublime-*
 
@@ -32,10 +31,7 @@ env/
 .env/
 
 # Secrets and credentials (NEVER commit these)
-.env
-.env.*
 *.env
-**/.env
 **/client_secret*.json
 **/service_account*.json
 **/oauth-token.json
@@ -179,3 +175,4 @@ id_rsa
 id_rsa.*
 id_ed25519
 id_ed25519.*
+config.bat
